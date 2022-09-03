@@ -19,7 +19,7 @@ router.route('/save').post(userController.userASave)
 
 router.route('/update').patch(userController.userUpdate)
 
-//
+// Multiple user update
 
 router.route('/bulk-update').patch(userController.userMultipleDataUpdate)
 
